@@ -10,7 +10,7 @@ var questionsEl =
 	);  
 
 var timerEl = 
-	document.querySelector("#timer"); 
+	document.querySelector("#time"); 
 var choicesEl = 
 	document.querySelector("#choices"); 
 var submitBtn = document.querySelector( 
@@ -210,7 +210,7 @@ function saveHighscore(event) {
     
 } 
  */
-initialsEl.onkeyup = checkForEnter; 
+//initialsEl.onkeyup = checkForEnter; 
 
 // Save users' score after clicking submit 
 
