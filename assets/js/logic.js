@@ -38,7 +38,7 @@ var highscores =
 
 // Quiz's initial state 
 var currentQuestionIndex = 0; 
-var time = questions.length * 15; 
+var time = 75; 
 var timerId; 
 
 // The start quiz function
@@ -183,6 +183,8 @@ function saveHighscore(event) {
     highscores.splice(5);
 
     console.log(highscores);
+	localStorage.setItem('highscores',JSON.stringify(highscores))//save to local storage
+	window.location.href = './highscores.html';
 }
 /* function saveHighscore() { 
 	var initials = initialsEl.value.trim(); 
