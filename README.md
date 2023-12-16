@@ -35,6 +35,16 @@ An application of a timed quiz on JavaScript fundamentals that stores high score
 * CSS
 * Javascript
 
+### App pages
+
+### Start Screen
+![Start Screen](./images/startScreen.JPG)
+### Question Screen
+![Question Screen](./images/questionScreen.JPG)
+### Score Screen
+![Score Screen](./images/finalScore.JPG)
+### Highscore Screen
+![Highscore Screen](./images/highScore.JPG)
 <!-- LICENSE -->
 ## License
 
