@@ -169,7 +169,7 @@ function clockTick() {
 	} 
 } 
 // Save score in local storage 
-// Along with users' name 
+// Along with initials 
 function saveHighscore(event) {
     
     event.preventDefault();

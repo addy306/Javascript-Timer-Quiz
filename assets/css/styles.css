@@ -13,6 +13,10 @@ body {
   background-color: var(--backgroundColor);
 }
 
+h1,h2,h3,p{
+  color: var(--hovercolor);
+}
+
 a {
   color: var(--maincolor);
   text-decoration: none;
